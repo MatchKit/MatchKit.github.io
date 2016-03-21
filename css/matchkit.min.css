@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: #fc8700;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fc8700;
+  background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -244,11 +244,12 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Adelle", PT Serif ", Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
+  font-family: "Adelle PE", "PT Serif", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
   margin-bottom: 25px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 5px 5px 5px 5px;
 }
 header .intro-text .intro-heading {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -256,7 +257,8 @@ header .intro-text .intro-heading {
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -264,19 +266,21 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Adelle", PT Serif ", Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-family: "Adelle PE", "PT Serif", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     margin-bottom: 25px;
+    padding: 5px 5px 5px 5px;
   }
   header .intro-text .intro-heading {
     font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     line-height: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 }
 section {
@@ -289,7 +293,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Adelle", PT Serif ", Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Adelle PE", "PT Serif", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -299,6 +303,9 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+}
+.case-study img {
+  padding: 15px 15px 15px 15px;
 }
 .service-heading {
   margin: 15px 0;
@@ -356,7 +363,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Adelle", PT Serif ", Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Adelle PE", "PT Serif", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -674,7 +681,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Adelle", PT Serif ", Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Adelle PE", "PT Serif", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
