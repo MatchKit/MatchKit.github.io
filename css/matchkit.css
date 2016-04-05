@@ -11,6 +11,9 @@ body {
 .text-muted {
   color: #777;
 }
+.text-white {
+  color: white;
+}
 .text-primary {
   color: #fc8700;
 }
@@ -562,64 +565,73 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-section#contact {
+section#beta {
   background-color: #5e7081;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
-section#contact .section-heading {
+section#beta .section-heading {
   color: white;
 }
-section#contact .form-group {
+section#beta .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#beta .form-group input,
+section#beta .form-group textarea {
   padding: 20px;
 }
-section#contact .form-group input.form-control {
+section#beta .form-group input.form-control {
   height: auto;
 }
-section#contact .form-group textarea.form-control {
+section#beta .form-group textarea.form-control {
   height: 236px;
 }
-section#contact .form-control:focus {
+section#beta .form-control:focus {
   border-color: #fc8700;
   box-shadow: none;
 }
-section#contact ::-webkit-input-placeholder {
+section#beta ::-webkit-input-placeholder {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact :-moz-placeholder {
+section#beta :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact ::-moz-placeholder {
+section#beta ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact :-ms-input-placeholder {
+section#beta :-ms-input-placeholder {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
-section#contact .text-danger {
+section#beta .text-danger {
   color: #e74c3c;
 }
 footer {
   padding: 25px 0;
   text-align: center;
+}
+footer span.logo-font {
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #5e7081;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 60px;
 }
 footer span.copyright {
   line-height: 40px;

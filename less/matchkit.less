@@ -12,6 +12,10 @@ body {
 	color: @gray;
 }
 
+.text-white {
+	color: white;
+}
+
 .text-primary {
 	color: @brand-primary;
 }x
@@ -546,9 +550,9 @@ aside.clients {
 	}
 }
 
-// Contact Section
+// Beta Section
 
-section#contact {
+section#beta {
 	background-color: @gray-darkest;
 	background-image: url('../img/map-image.png');
 	background-position: center;
@@ -603,6 +607,15 @@ section#contact {
 footer {
 	padding: 25px 0;
 	text-align: center;
+	span.logo-font {
+		.heading-font;
+		color: @gray-darkest;
+		text-transform: none;
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 60px;
+
+	}
 	span.copyright {
 		line-height: 40px;
 		.heading-font;
